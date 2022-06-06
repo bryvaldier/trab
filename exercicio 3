@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+int main (){
+	
+	
+	int contador = 0;
+	int idade, i;
+	
+	
+	for (i=0; i <=9; i++){
+		
+		cout << "informe a idade: ";
+		cin >> idade;
+		
+		if (idade >= 18){
+			
+			contador ++;
+			
+			
+		}
+		
+		
+	}cout << "\n os maiores de idade sao " << contador;
+	
+	
+	
+	
+	
+}
