@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+int main (){
+	
+	
+	
+	int contador=0;
+	int numero, i;
+	
+	
+	for ( i=0; i <=4; i++){
+		
+		
+		cout << "informe um numero";
+		cin>> numero;
+		
+		if (numero %2 !=0) {
+			
+			contador++;
+			
+			
+		}
+		
+		
+		
+		
+	}cout << "\n o total de numeros impares são:" << contador;
+	
+	
+	
+}
